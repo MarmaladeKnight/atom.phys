@@ -1,16 +1,14 @@
 <template>
   <div class="header">
-    <img id="logo" alt="Vue logo" src="../../assets/logo.png">
+    <img id="logo" alt="Atom.Phys" src="../../assets/logo.png">
     <div>
         <h1>
             Atom.Phys
         </h1>
-        <p>
+        <h3>
             Конструктор атомов для уроков физики и химии
-        </p>
+        </h3>
     </div>
-    
-    
   </div>
 </template>
 
@@ -20,25 +18,33 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
+<style lang="scss" scoped>
     .header {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;   
+        align-items: center;
+
+        h1, h3 {
+            margin: 0px;
+            padding: 0px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: -25px;
+            font-size: 90px;
+        }
+
+        h3 {
+            margin-top: -10px;
+        }
     }
 
-    h1, p {
-        margin: 0px;
-        padding: 0px;
-        color: #5D5D5D;
-        font-weight: bold;
-    }
     #logo {
-        display: inline;
-        width: 100px;
-        height: 100px;
-        margin-right: 15px; 
+        display: block;
+        width: 130px;
+        height: 130px;
+        margin-right: 15px;
     }
 </style>
