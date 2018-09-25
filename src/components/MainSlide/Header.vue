@@ -6,7 +6,7 @@
             Atom.Phys
         </h1>
         <h3>
-            Конструктор атомов для уроков физики и химии
+            {{ $t('title') }}
         </h3>
     </div>
   </div>
@@ -14,7 +14,13 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  data () { return { locale: 'en' } },
+  watch: {
+    locale (val) {
+      this.$i18n.locale = val
+    }
+  }
 }
 </script>
 
