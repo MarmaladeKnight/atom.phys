@@ -42,6 +42,10 @@ export default {
   width: 500px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  @media screen and (max-width: 426px){
+    width: 250px;
+  }
 }
 </style>
