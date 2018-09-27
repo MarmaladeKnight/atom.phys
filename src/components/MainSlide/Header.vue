@@ -35,6 +35,7 @@ export default {
             margin: 0px;
             padding: 0px;
             font-weight: bold;
+            user-select: none;
         }
 
         h1 {
