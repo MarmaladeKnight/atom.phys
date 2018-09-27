@@ -26,17 +26,16 @@ export default {
 
 <style lang="scss" scoped>
     .item_wrapper {
-        background-color: red;
+        margin-top: 30px;
         position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100px;
+        display: block;
     }
 
     .ball_wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        width: 100px;
+        height: 100px;
     }
 
     .ball_wrapper:hover + .item_shadow{
@@ -46,19 +45,22 @@ export default {
     .download_item {
         position: absolute;
         top: 0;
+        left: 0;
         z-index: 2;
         width: 100px;
         height: 100px;
         transition: 0.2s ease-in-out;
-    }
-
-    .download_item:hover {
-        top: 4px;
+        &:hover {
+            top: 4px;
+        }
     }
 
     .item_shadow {
         position: absolute;
         top: 95px;
+        left: 0;
+        right: 0;
+        margin: auto;
         z-index: 1;
         width: 70px;
         height: 20px;

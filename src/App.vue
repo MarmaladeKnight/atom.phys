@@ -1,5 +1,5 @@
 <template>
-    <MainSlide></MainSlide>
+    <MainSlide/>
 </template>
 
 <script>
@@ -19,6 +19,8 @@ export default {
 html, body {
   padding: 0px;
   margin: 0px;
+  width: 100%;
+  height: 100%;
   font-family: 'PT Sans', sans-serif;
   background-color: rgb(245, 245, 245);
   box-shadow: inset 0px 4px 100px rgba(0, 0, 0, 0.25);

@@ -21,7 +21,7 @@ const i18n = new VueI18n({
   }
 })
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 /* eslint-disable no-new */
 new Vue({

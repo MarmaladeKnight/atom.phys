@@ -1,5 +1,5 @@
 <template>
-  <div class="slide1">
+  <div class="main_slide">
     <Header/>
     <Downloads/>
   </div>
@@ -19,12 +19,17 @@ export default {
 </script>
 
 <style lang="scss">
-    .slide1 {
+    .main_slide {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
+        /*
+        @media screen and (max-width: 426px){
+            justify-content: space-evenly;
+        }
+        */
     }
 </style>

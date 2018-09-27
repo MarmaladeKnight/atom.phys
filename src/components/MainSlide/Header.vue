@@ -40,10 +40,22 @@ export default {
         h1 {
             margin-top: -25px;
             font-size: 90px;
+
+            @media screen and (max-width: 426px){
+                margin-top: -5px;
+                font-size: 30px;
+            }
         }
 
         h3 {
             margin-top: -10px;
+            @media screen and (max-width: 426px){
+                margin-top: 0px;
+                font-size: 14px;
+            }
+        }
+        @media screen and (max-width: 426px){
+            margin-top: -200px;
         }
     }
 
@@ -52,5 +64,15 @@ export default {
         width: 130px;
         height: 130px;
         margin-right: 15px;
+        @media screen and (max-width: 426px){
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    @media screen and (max-width: 426px){
+        .header div {
+            width: 180px;
+        }
     }
 </style>
