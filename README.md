@@ -1,6 +1,6 @@
-# atom.phys
+# Atom.Phys Landing 
 
-> A Vue.js project
+> Лэндинг для приложения Atom.Phys. Сайт работает на Vue.js с использованием vue-cli
 
 ## Build Setup
 
@@ -18,4 +18,4 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Лендинг сейчас развернут на [firebase](https://atomphys-fd80c.firebaseapp.com/)

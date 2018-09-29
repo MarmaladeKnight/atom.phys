@@ -1,6 +1,6 @@
 <template>
   <div class="downloads">
-    <h4>Доступно там, где вам удобно</h4>
+    <h4>Доступен хоть на мобильнике, <br>хоть в браузере</h4>
     <div class="download_items">
       <DownloadItem
         v-for="item in items"
