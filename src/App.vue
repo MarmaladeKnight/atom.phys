@@ -1,29 +1,40 @@
 <template>
-    <MainSlide/>
+    <main>
+        <!-- <MainTitle></MainTitle> -->
+        <Downloads></Downloads>
+    </main>
 </template>
 
 <script>
 import MainSlide from './components/MainSlide.vue'
+import MainTitle from './components/MainTitle.vue'
+import Downloads from './components/Downloads.vue'
+
 
 export default {
-  name: 'app',
-  components: {
-    MainSlide
-  }
+    name: 'app',
+    components: {
+        MainSlide,
+        MainTitle,
+        Downloads
+    }
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+<style lang="scss">
+    html, body {
+        padding: 0px;
+        margin: 0px;
+        overflow-y: hidden;
+    }
 
-html, body {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  max-height: 100%;
-  font-family: 'PT Sans', sans-serif;
-  background-color: rgb(245, 245, 245);
-  box-shadow: inset 0px 4px 100px rgba(0, 0, 0, 0.25);
-  color: #5D5D5D;
-}
+    main {
+        display: flex;
+        flex-direction: row;
+
+
+        width: 200vw;
+        height: 100%;
+        overflow-y: hidden;
+    }
 </style>

@@ -7,7 +7,7 @@
 
 <script>
 import Header from './MainSlide/Header.vue'
-import Downloads from './MainSlide/Downloads.vue'
+import Downloads from './Downloads.vue'
 
 export default {
   name: 'MainSlide',
